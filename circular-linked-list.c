@@ -161,7 +161,7 @@ void printList(listNode* h) { // 리스트 노드를 출력하는 함수
 }
 
 
-int insertLast(listNode* h, int key) {//list의 마지막에 key를 삽입하는 함수
+int insertLast(listNode* h, int key) {//리스트의 마지막에 key를 삽입하는 함수
 
 	if (h == NULL) return -1; // h가 NULL인 경우 함수를 종료
 
